@@ -1,0 +1,218 @@
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Medium.eot');
+    src: local('./fonts/Gilroy Medium'), local('Gilroy-Medium'),
+        url('./fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('./fonts/Gilroy-Medium.woff') format('woff'),
+        url('./fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Bold.eot');
+    src: local('./fonts/Gilroy Bold'), local('Gilroy-Bold'),
+        url('./fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('./fonts/Gilroy-Bold.woff') format('woff'),
+        url('./fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Regular.eot');
+    src: local('./fonts/Gilroy Regular'), local('Gilroy-Regular'),
+        url('./fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('./fonts/Gilroy-Regular.woff') format('woff'),
+        url('./fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Light.eot');
+    src: local('./fonts/Gilroy Light'), local('Gilroy-Light'),
+        url('./fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Light.woff2') format('woff2'),
+        url('./fonts/Gilroy-Light.woff') format('woff'),
+        url('./fonts/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{font-family: 'Gilroy';}
+h1{font-size:40px;color:#022040;font-weight: 700;}
+h2{font-size: 30px;}
+h3{font-size: 27px;}
+h4{font-size: 25px;}
+h5{font-size: 20px;}
+h6{font-size: 18px;}
+p{font-size:14px;color:#4e4e4e;}
+.btn{background:#022040;border-radius:4px;padding:10px 32px;}
+.btn a{color:white;}
+.btn:hover{background:#fdcc01;}
+a:hover{text-decoration:none;}
+.btn a:hover{color:#022040;}
+/*=====================header==================*/
+.nav-link{padding-right: 1.5rem;padding-left: .5rem;color:black;font-weight:600;}
+/* header {position: fixed;z-index: 1;width: 100%;;} */
+.navbar-nav{width:100%;}
+.navbar-nav.navbar-right {display: flex;justify-content: end;align-items: center;
+    -webkit-align-items: center;-webkit-align-content: center;
+    -moz-box-pack: center; -moz-box-align: center;display: -webkit-box;
+    -webkit-box-pack: center; -webkit-box-align: center; display: -webkit-box;
+    display: -moz-box;display: -ms-flexbox;display: -webkit-flex;}
+.navbar-expand-md .navbar-nav .nav-link {padding-right: 1rem;padding-left: 1rem;}
+.navbar.navbar-expand-md {padding: 0px;}
+.navbar-toggler-icon {height: 2px;display: block;padding: 0px;background: white;margin: 5px;}
+.navbar-toggler {border: 1px solid white;}
+.nav-link:hover {color: #fdcc01;}
+.current{background:#fdcc01;padding:20px;}
+.current a{background:#022040; color:white;border-radius:4px;}
+.current a:hover{color:#fdcc01;}
+.navbar-brand {padding-top: 0;padding-bottom: 0;}
+/*=================banner======================*/
+.banner img {width: 100%;}
+/*================labour=====================*/
+.labour{padding:50px 0;}
+.text-labour {text-align: center;}
+/*===============welcome============*/
+.image-left img {width: 100%;height:100%;}
+.text-right {text-align: left !important;}
+.card-header {background-color: #fdcc01;border-bottom: 1px solid #fdcc01;}
+.card-link {color: white;}
+.text-right h4{color:#fdcc01;}
+.text-right h2 {color: #022040;}
+.card-body {color: #4e4e4e;}
+/*============news===============*/
+.news {padding: 50px 0;}
+.images-box img {width: 100%;height: 300px;object-fit: cover;}
+.heading h2 {text-align: center;margin-bottom:30px;color:#022040;}
+.box h6 {color: #022040;}
+.box a{color:#022040;font-weight:600;}
+.text-box {margin-bottom: 30px;padding:20px;}
+.main-box {box-shadow: 0 0 11px #0000005c;}
+
+/*===================footer================*/
+.footer{background:#fdcc01;padding:50px 0;position:relative;}
+address {
+	position: relative;padding-left:80px;display: flex;flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-align-content: center;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+address::before {
+	position: absolute;
+	content: "";
+	background-image: url("../images/phone.png");
+	height: 64px;
+	width: 64px;
+	display: block;left:0;
+}
+.box-3 address::before {
+	position: absolute;
+	content: "";
+	background-image: url("../images/megaphone.png");
+	height: 64px;
+	width: 64px;
+	display: block;left:0;
+}
+address strong, address span{display:block;width:100%;}
+.icon-footer li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.icon-footer {
+	text-align: center;padding-left:0px;
+	margin-top: 40px;
+}
+.footer::after {
+	position: absolute;
+	content: "";
+	border: 2px solid black;
+	top: 122px;
+	width: 50%;
+	left: 50%;
+	transform: translate(-50%);
+}
+.icon h6 {
+	text-align: center;margin-top:10px;
+}
+.icon {
+	text-align: center;
+	margin-top: 40px;
+}
+/*************media quary*************/
+@media screen and (max-width:1024px){
+    .container{max-width:95%};
+}
+@media screen and (max-width:768px){
+.navbar-brand img {
+	width: 200px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+	font-size: 14px;
+}
+}
+@media screen and (max-width:767px){
+    .text-right {
+        margin-top: 30px;
+    }
+    .footer::after {
+        display: none;
+    }
+    address {
+        margin-bottom: 50px;
+    }
+    .icon-footer, .icon h6, .icon, address {
+        text-align: center;margin-top:0px;padding-left:0px;
+    }
+    .navbar-toggler {
+        background: #022040;position:absolute;top:10px;right:15px;
+    }
+    #collapsibleNavbar {
+
+        position: absolute;
+        top: 51px;
+        background: white;
+    }
+    header .container {
+        max-width: 100%;
+
+    }
+    address{padding-top:80px;}
+    .box-3 address::before,  address::before  {
+        left: 50%;
+        top: 0;
+        transform: translate(-50%);
+    }
+}
+@media screen and (max-width:480px){
+header img {
+width:200px;
+}
+.navbar-toggler {
+	top: 10px;
+}
+}
